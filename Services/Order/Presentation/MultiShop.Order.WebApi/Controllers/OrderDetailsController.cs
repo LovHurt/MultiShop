@@ -31,7 +31,7 @@ public class OrderDetailsController : ControllerBase
         return Ok(values);
     }
 
-    [HttpGet]
+    [HttpGet("{id}")]
     public async Task<IActionResult> GetOrderDetailById(int id)
     {
         var value = await _getOrderDetailByIdQueryHandler.Handle(new GetOrderDetailByIdQuery(id));

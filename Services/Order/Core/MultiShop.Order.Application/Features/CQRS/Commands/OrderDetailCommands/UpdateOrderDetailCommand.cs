@@ -16,5 +16,4 @@ public class UpdateOrderDetailCommand
     public int ProductAmount { get; set; }
     public decimal ProductTotalPrice { get; set; }
     public int OrderingId { get; set; }
-    public Ordering Ordering { get; set; }
 }
