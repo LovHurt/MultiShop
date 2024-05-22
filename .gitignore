@@ -362,3 +362,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Services/Order/Infrastructure/MultiShop.Order.Persistence/Context/OrderContext.cs
+/IdentityServer/MultiShop.IdentityServer/appsettings.json
