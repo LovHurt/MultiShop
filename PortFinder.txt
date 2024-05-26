@@ -1,0 +1,3 @@
+netstat -a -n -o | find "7080" 
+
+Write to port you want to use to place of '7080' to check if it is available
